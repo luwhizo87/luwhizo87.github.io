@@ -1,0 +1,124 @@
+body{
+    background: rgb(63, 63, 65); 
+
+ }
+ 
+ h1{
+     color: rgb(255, 255, 255) ;
+     text-align: center;
+     
+     
+ }
+ 
+ .avatar img{
+     width: 200px;
+     height: 200px;
+     border-radius: 100%;
+     border:rgb(50,100,211) 2px solid;
+     
+     display: block;
+     margin: 0 auto ;
+ }
+ 
+ 
+ h3,p{
+     color: beige ;
+     margin: auto;
+     width: 90%;
+     padding-bottom: 10px;
+ }
+ 
+ 
+ table{
+     /* color: blue ; */
+     background:rgb(63, 63, 65);
+     /* border: 1px rgb(0,0,255) solid; */
+     width: 90%;
+     text-align: center;
+     margin: auto;
+     padding-bottom: 10px;
+ }
+ 
+ th{
+     background: rgb(252, 2, 44);
+     color: white;
+ }
+ 
+ td{
+    border:1px rgb(255,255,255) solid ;
+     background-color: rgb(251, 251, 107);
+ } 
+ 
+ .tec{
+     background: rgb(123, 240, 112);
+ }
+
+
+
+
+
+.ul{
+    margin: auto;
+    width: 85%;
+    padding: 30px;
+
+    background-color: rgb(123, 255, 255);
+    color: rgb(32, 31, 31);
+
+    margin-bottom: 20px;
+    
+}
+
+
+.ol{
+    margin: auto;
+    width: 85%;
+    padding: 30px;
+
+    background-color: rgb(210, 164, 253);
+    color: rgb(32, 31, 31);
+    margin-bottom: 30px;
+
+}
+
+.ajo{
+    color: crimson;
+}
+
+
+
+
+
+
+form{
+    width: 45%;
+    border: 1px solid rgb(62, 243, 62);
+    margin: 20px;
+    padding: 20px;
+
+    display: block;
+    margin: 0 auto ;
+    margin-bottom: 50px;
+    
+}
+label{
+    font-size: 12px;
+    display: block;
+    color: rgb(189, 250, 189);
+}
+input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+button{
+    width: 100%;
+    background: aqua;
+}
+input:focus{
+    border: 1px solid  rgb(18, 138, 250);;
+}
