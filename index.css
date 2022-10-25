@@ -1,0 +1,75 @@
+.espacio{
+    margin: 20px;
+}
+
+.contenedor{
+margin: auto;
+width: 94%;
+text-align: center;
+}
+
+.titulo{
+    padding: 30px;
+    background-color: rgb(3, 35, 139);
+    color: white;
+    font-size: 30px;
+}
+
+img.mediana{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .redes1{
+      text-align: center;
+      padding: 8px;
+      display: block;
+      color: rgb(3, 35, 139);
+      text-decoration: none;
+      font-size: 16px;
+      width: 80%;
+      margin: auto;
+      border: rgb(3, 35, 139) 1px solid;
+      border-radius: 6px;
+      margin-bottom: 20px;
+  }
+  
+  .redes2{
+    text-align: center;
+    padding: 8px;
+    display: block;
+    color: rgb(199, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    border: rgb(199, 0, 0) 1px solid;
+    border-radius: 6px;
+}
+
+  .conjunto_btn{
+      display: flex;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .conjunto_btn a{
+   width: 200px;
+   background: rgb(29, 78, 240);
+   margin: 20px;
+   padding: 10px;
+   border-radius: 8px;
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   border: rgb(29, 78, 240) 1px solid;
+}
+
+.conjunto_btn a:hover{
+    border: rgb(29, 78, 240) 1px solid;
+    background: rgb(255, 255, 255);
+    color:rgb(29, 78, 240) ;
+}
